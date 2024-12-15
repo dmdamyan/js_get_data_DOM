@@ -1,0 +1,2 @@
+for(var t=0,e=0,n="",o=document.getElementsByClassName("population"),l=document.querySelector("span.total-population"),a=document.querySelector("span.average-population"),r=0;r<o.length;r++)t+=+o[r].textContent.split(",").join("");t+="",e=Math.round(t/o.length)+"";for(var g=t.length-1;g>=0;g--)9===g||6===g||3===g?n+=t[t.length-1-g]+",":n+=t[t.length-1-g];for(var h="",p=e.length-1;p>=0;p--)6===p||3===p?h+=e[e.length-1-p]+",":h+=e[e.length-1-p];l.textContent=n,a.textContent=h;
+//# sourceMappingURL=index.38d2eeb4.js.map
